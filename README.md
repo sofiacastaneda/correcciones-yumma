@@ -2,19 +2,18 @@
 
 # TODO
 [] Añadir pin a página login <br>
-[] Cambiar el botón menú hamburguesa (ícono) por botón con la palabra menú en *todas* las pantallas<br>
-[] Cambiar el favicon en *todas* las pantallas<br>
+[x] Cambiar el botón menú hamburguesa (ícono) por botón con la palabra menú en *todas* las pantallas<br>
+[x] Cambiar el favicon en *todas* las pantallas<br>
 [x] Ajustar ameba seguimientos por dupla anual<br>
 [x] Ajustar ameba seguimientos por dupla mensual<br>
 [x] Ajustar ameba seguimientos a crónicos<br>
-[] Ajustar ameba evaluacion de riesgo<br>
 [x] Ajustar ameba canalizaciones anual<br>
 [x] Ajustar ameba canalizaciones mensual<br>
 [x] Ajustar amebas total de evaluacion de riesgo por beneficiarios<br>
-[] Ajustar amebas total de canalizaciones por beneficiarios<br>
+[x] Ajustar amebas total de canalizaciones por beneficiarios<br>
 [x] Ajustar amebas desglose actividades por beneficiarios<br>
 [x] Ajustar amebas datos cruzados salarios mínimos<br>
-[] Ajustar amebas datos cruzados discapacidad<br>
+[x] Ajustar amebas datos cruzados discapacidad<br>
 
 
 ________________________________________
@@ -22,8 +21,54 @@ ________________________________________
 # Log de cambios
 
 ## 1. Ajuste botón menú de hamburguesa *TODAS* las pantallas
+### Modificación en el archivo HTML:
+AÑADIR:
+<div class="rectangle-172"></div>
+<div class="men calibri-bold-black-16px">
+<span class="calibri-bold-black-16px">MENÚ</span></div>
+<div class="men calibri-bold-black-16px"><span class="calibri-bold-black-16px">MENÚ</span></div>
+ELIMINAR:
+<div class="rectangle-173"></div>
+<div class="rectangle-174"></div>
+<div class="rectangle-175"></div>
+
+### Modificación en el archivo CSS de cada pantalla:
+.//nombre del archivo// .rectangle-172 {
+  background-color: var(--white);
+  border-radius: 29px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 87px;
+  left: 44px;
+  position: absolute;
+  top: 0;
+  width: 96px;
+}
+.//nombre del archivo// .men {
+  left: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 48px;
+  white-space: nowrap;
+  width: 89px;
+}
+### Nota: asegurarse de que la siguiente clase se encuentra en la hoja de estilos *styleguide.css*
+.calibri-bold-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-calibri-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
 
 ## 2. Cambiar favicon en *TODAS* las pantallas
+### Modificación archivo HTML:
+REEMPLAZAR:
+<link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+POR:
+<link rel="shortcut icon" type="image/png" href="img/favicons/favicon-192.png" />
+
 
 ## 3. Ajuste tamaño amebas pantalla de datos total de seguimientos por dupla anual
 Para aplicar en el doc: 6-1-1-seguimientos-dupla-anual.html
