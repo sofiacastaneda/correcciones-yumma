@@ -1,0 +1,403 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700,500,600,100|Abel:400");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/6373af8e27249207af4a7941.6373af8f27249207af4a7944.vJRNJK4.hcp.png");
+
+@font-face {
+  font-family: "Calibri-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/calibri-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Calibri-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Calibri.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Arial-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Arial regular.ttf") format("truetype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.icon-text {
+  align-items: flex-start;
+  display: flex;
+  gap: 3px;
+  min-width: 47px;
+}
+
+.icon-text-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 3px;
+  min-width: 49px;
+}
+
+.ellipse-195-1 {
+  height: 970px;
+  left: 222px;
+  position: absolute;
+  top: 0;
+  width: 970px;
+}
+
+.chevron-left {
+  left: 0;
+}
+
+.campo-de-texto {
+  height: 16px;
+  letter-spacing: 0;
+  line-height: 15.8px;
+  white-space: nowrap;
+}
+
+.search {
+  align-self: center;
+  height: 15px;
+  width: 15px;
+}
+
+.base {
+  align-items: flex-start;
+  display: flex;
+}
+
+.fecha-de-seguimiento {
+  left: 454px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 542px;
+  width: 256px;
+}
+
+.tipo {
+  left: 481px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 478px;
+  white-space: nowrap;
+  width: 37px;
+}
+
+.tipo-de-documento {
+  left: 354px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 527px;
+  width: 296px;
+}
+
+.vector {
+  height: 6px;
+  width: 11px;
+}
+
+.localidad-donde-vive {
+  left: 342px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 412px;
+  width: 296px;
+}
+
+.ocupacin {
+  left: 342px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 739px;
+  width: 296px;
+}
+
+.etnia {
+  left: 341px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 558px;
+  width: 296px;
+}
+
+.puntaje-del-sisben {
+  left: 342px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 629px;
+  width: 296px;
+}
+
+.group-96 {
+  top: 743px;
+}
+
+.dropdown-native-off-5 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 0px 1px 6px 2px #00000033;
+  display: flex;
+  overflow: hidden;
+  padding: 0 6px;
+  position: absolute;
+}
+
+.nmero-de-hijos {
+  left: 342px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 416px;
+  width: 74px;
+}
+
+.es-cabeza-de-familia {
+  left: 342px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 511px;
+  width: 97px;
+}
+
+.cmo-supo-del-kilombo {
+  left: 342px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 600px;
+  width: 80px;
+}
+
+.estado-civil {
+  left: 341px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 345px;
+  white-space: nowrap;
+  width: 296px;
+}
+
+.group-4 {
+  height: 14px;
+  width: 14px;
+}
+
+.ellipse-53 {
+  background-color: var(--alto);
+  border-radius: 21.12px;
+  height: 42px;
+  left: 42px;
+  position: absolute;
+  top: 42px;
+  transform: rotate(2.62deg);
+  width: 42px;
+}
+
+.ellipse-60 {
+  background-color: var(--alto);
+  border-radius: 21.12px;
+  height: 42px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-1.05deg);
+  width: 42px;
+}
+
+.ellipse-55 {
+  background-color: var(--alto);
+  border-radius: 21.12px;
+  height: 42px;
+  left: 1px;
+  position: absolute;
+  top: 43px;
+  transform: rotate(-2.62deg);
+  width: 42px;
+}
+
+.ellipse-57 {
+  background-color: var(--alto);
+  border-radius: 21.12px;
+  height: 42px;
+  left: 43px;
+  position: absolute;
+  top: 1px;
+  transform: rotate(-2.09deg);
+  width: 42px;
+}
+
+.ellipse-container-2 {
+  left: 0;
+  top: 14px;
+}
+
+.ellipse-56 {
+  background-color: var(--alto);
+  border-radius: 21.12px;
+  height: 42px;
+  left: 43px;
+  position: absolute;
+  top: 1px;
+  transform: rotate(-2.62deg);
+  width: 42px;
+}
+
+.ellipse-58 {
+  background-color: var(--alto);
+  border-radius: 21.12px;
+  height: 42px;
+  left: 1px;
+  position: absolute;
+  top: 43px;
+  transform: rotate(-2.09deg);
+  width: 42px;
+}
+
+.ellipse-50 {
+  background-color: var(--alto);
+  border-radius: 21.12px;
+  height: 42px;
+  left: 114px;
+  position: absolute;
+  top: 229px;
+  width: 42px;
+}
+
+.ellipse-51 {
+  background-color: var(--alto);
+  border-radius: 21.12px;
+  height: 42px;
+  left: 0;
+  position: absolute;
+  top: 114px;
+  transform: rotate(1.57deg);
+  width: 42px;
+}
+
+.ellipse-container-3 {
+  height: 86px;
+  position: absolute;
+  width: 86px;
+}
+
+.group-7 {
+  height: 14px;
+  left: 55px;
+  position: absolute;
+  top: 15px;
+  width: 14px;
+}
+
+.number-4 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  white-space: nowrap;
+  width: 53px;
+}
+
+.vector-container {
+  height: 18px;
+  position: relative;
+  width: 18px;
+}
+
+.vector-97 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 9px;
+  width: 18px;
+}
+
+.vector-98 {
+  height: 18px;
+  left: 9px;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.rectangle-193 {
+  border-radius: 9.33px;
+  height: 41px;
+  left: 327px;
+  top: 862px;
+  width: 181px;
+}
+
+.rectangle-194 {
+  border-radius: 9.33px;
+  height: 54px;
+  left: 327px;
+  top: 950px;
+  width: 181px;
+}
+
+.nmero-de-llamadas {
+  left: 344px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 872px;
+  width: 146px;
+}
+
+.minutos-en-el-telfo {
+  left: 340px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 957px;
+  width: 160px;
+}
+
+.ingrese-los-valores {
+  left: 337px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 748px;
+  width: 255px;
+}
