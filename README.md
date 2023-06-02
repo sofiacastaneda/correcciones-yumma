@@ -20,10 +20,10 @@ ________________________________________
 
 # Log de cambios
 
-**Ajuste tamaño amebas pantalla de datos total de seguimientos por dupla anual**
-Para aplicar en el doc: 6-1-1-seguimientos-dupla-anual.html
-Archivos modificados:
-**correcciones-yumma/css/6-1-1-seguimientos-dupla-anual.css**
+**1. Ajuste tamaño amebas pantalla de datos total de seguimientos por dupla anual**<br>
+Para aplicar en el doc: 6-1-1-seguimientos-dupla-anual.html<br>
+Archivos modificados:<br>
+**correcciones-yumma/css/6-1-1-seguimientos-dupla-anual.css**<br>
 ```html
 .x6-1-1-seguimientos-dupla-anual .ellipse-130 {
   height: 300px;
