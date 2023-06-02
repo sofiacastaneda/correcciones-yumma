@@ -1,26 +1,26 @@
 # correcciones-yumma
 
 # TODO
-[] Añadir pin a página login
-[] Cambiar el botón menú hamburguesa (ícono) por botón con la palabra menú en *todas* las pantallas
-[x] Ajustar ameba seguimientos por dupla anual
-[x] Ajustar ameba seguimientos por dupla mensual
-[x] Ajustar ameba seguimientos a crónicos
-[] Ajustar ameba evaluacion de riesgo
-[x] Ajustar ameba canalizaciones anual
-[x] Ajustar ameba canalizaciones mensual
-[x] Ajustar amebas total de evaluacion de riesgo por beneficiarios
-[] Ajustar amebas total de canalizaciones por beneficiarios
-[x] Ajustar amebas desglose actividades por beneficiarios
-[x] Ajustar amebas datos cruzados salarios mínimos
-[] Ajustar amebas datos cruzados discapacidad
+[] Añadir pin a página login <br>
+[] Cambiar el botón menú hamburguesa (ícono) por botón con la palabra menú en *todas* las pantallas<br>
+[x] Ajustar ameba seguimientos por dupla anual<br>
+[x] Ajustar ameba seguimientos por dupla mensual<br>
+[x] Ajustar ameba seguimientos a crónicos<br>
+[] Ajustar ameba evaluacion de riesgo<br>
+[x] Ajustar ameba canalizaciones anual<br>
+[x] Ajustar ameba canalizaciones mensual<br>
+[x] Ajustar amebas total de evaluacion de riesgo por beneficiarios<br>
+[] Ajustar amebas total de canalizaciones por beneficiarios<br>
+[x] Ajustar amebas desglose actividades por beneficiarios<br>
+[x] Ajustar amebas datos cruzados salarios mínimos<br>
+[] Ajustar amebas datos cruzados discapacidad<br>
 
 
 ________________________________________
 
 # Log de cambios
 
-## Ajuste tamaño amebas pantalla de datos total de seguimientos por dupla anual
+*#Ajuste tamaño amebas pantalla de datos total de seguimientos por dupla anual*
 Para aplicar en el doc: 6-1-1-seguimientos-dupla-anual.html
 Archivos modificados:
 ### correcciones-yumma/css/6-1-1-seguimientos-dupla-anual.css
